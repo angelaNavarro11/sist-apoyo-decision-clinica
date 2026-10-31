@@ -1,0 +1,75 @@
+{
+  "grupo": 5,
+  "descripcion": "Dataset sintético docente para la Práctica 3 - CDS y Perceptrón Multiclase. El alumnado debe realizar la partición en entrenamiento, validación y prueba.",
+  "asignatura": "Sistemas Inteligentes aplicados en Salud",
+  "curso": "26-27",
+  "n_sujetos": 1000,
+  "edad_media_generacion": 49,
+  "edad_sd_generacion": 15,
+  "tasa_ruido_etiquetas": 0.05,
+  "patologias": [
+    "infeccion_respiratoria",
+    "infeccion_urinaria",
+    "gastroenteritis",
+    "insuficiencia_cardiaca",
+    "exacerbacion_respiratoria"
+  ],
+  "distribucion_patologias": {
+    "exacerbacion_respiratoria": 191,
+    "gastroenteritis": 201,
+    "infeccion_respiratoria": 209,
+    "infeccion_urinaria": 197,
+    "insuficiencia_cardiaca": 202
+  },
+  "nota_particion": "El dataset NO incluye partición predefinida. El alumnado debe dividir los datos en entrenamiento, validación y prueba, justificando los porcentajes elegidos.",
+  "variables": {
+    "demograficas": [
+      "edad",
+      "sexo_masculino"
+    ],
+    "sintomas_binarios": [
+      "fiebre",
+      "tos",
+      "disnea",
+      "disuria",
+      "polaquiuria",
+      "nitritos",
+      "dolor_lumbar",
+      "diarrea",
+      "vomitos",
+      "dolor_abdominal",
+      "edemas",
+      "sibilancias",
+      "tabaquismo"
+    ],
+    "constantes_vitales": [
+      "frecuencia_respiratoria",
+      "saturacion_o2",
+      "frecuencia_cardiaca",
+      "temperatura",
+      "tas",
+      "tad"
+    ],
+    "analitica_sangre": [
+      "pcr",
+      "leucocitos_sangre",
+      "glucosa",
+      "creatinina",
+      "sodio",
+      "potasio"
+    ],
+    "analitica_orina": [
+      "leucocitos_orina"
+    ],
+    "otras": [
+      "gasometria_ph",
+      "peso_kg"
+    ],
+    "objetivo": "patologia"
+  },
+  "codificacion": {
+    "sexo_masculino": "1=masculino, 0=femenino",
+    "variables_binarias": "1=presente, 0=ausente"
+  },
+  "aviso": "Datos exclusivamente docentes. No representan criterios clínicos reales. No utilizar para diagnóstico."
+}
