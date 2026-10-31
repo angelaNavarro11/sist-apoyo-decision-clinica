@@ -1,2 +1,10 @@
 #entorno virtual
 .envCDS/
+#Caché de Python
+__pycache__/
+*.pyc
+#Notebooks
+.ipynb_checkpoints/
+#VS Code
+.vscode/
+.idea/
