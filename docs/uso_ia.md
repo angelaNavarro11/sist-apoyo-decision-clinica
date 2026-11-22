@@ -23,7 +23,6 @@ TAREA 5: ANÁLISIS DE PESOS
 TAREA 6: EVALUACIÓN EN PRUEBA
 - Comprobación de porcentajes
 
-
 TAREA 7: VALIDACIÓN CRUZADA
 - Ayuda en como eliminar las 5 varibles de menor peso en cada pliegue.
 
