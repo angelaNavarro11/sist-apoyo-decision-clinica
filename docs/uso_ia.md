@@ -15,4 +15,4 @@ TAREA 4: MLP
 TAREA 7: VALIDACIÓN CRUZADA
 - Ayuda en como eliminar las 5 varibles de menor peso en cada pliegue.
 
-La mayoría de códigos han sido realizados siguiendo la teoría explicada en los notebooks de IntroduccionRedesNeuronales y IntroduccionManejoDatos.
+La mayoría de códigos han sido realizados siguiendo la teoría explicada en los notebooks de IntroduccionRedesNeuronales y IntroduccionManejoDatos. 
